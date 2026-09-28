@@ -1,12 +1,676 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio resmi Rendi Pratama, siswa kompetensi keahlian Rekayasa Perangkat Lunak (RPL) di SMK Negeri 1 Kepanjen.">
+  <meta name="author" content="Rendi Pratama">
+  <title>Rendi Pratama | Portofolio Siswa SMKN 1 Kepanjen</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hallo Semua!</h1>
-    
+  <!-- Accessibility skip link -->
+  <a href="#main-content" class="skip-link">Lewati ke konten utama</a>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container nav-wrapper">
+      <a href="#home" class="brand">
+        <span class="brand-name">Rendi Pratama</span>
+        <span class="brand-sub">SMKN 1 Kepanjen</span>
+      </a>
+
+      <nav aria-label="Navigasi Utama">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Beranda</a></li>
+          <li><a href="#about" class="nav-link">Tentang</a></li>
+          <li><a href="#skills" class="nav-link">Keahlian</a></li>
+          <li><a href="#projects" class="nav-link">Proyek</a></li>
+          <li><a href="#education" class="nav-link">Pendidikan</a></li>
+          <li><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-icon theme-toggle" id="theme-toggle" aria-label="Ganti Tema" title="Ganti Tema">
+          <!-- Sun Icon for Dark Mode -->
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon for Light Mode -->
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button class="btn-icon menu-toggle" id="menu-toggle" aria-label="Buka Menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span>Siswa Rekayasa Perangkat Lunak</span>
+          </div>
+          <h1 class="hero-title">
+            Membangun solusi web fungsional dan terstruktur.
+          </h1>
+          <p class="hero-subtitle">
+            Saya Rendi Pratama, siswa SMK Negeri 1 Kepanjen yang berfokus pada pengembangan Front-End, arsitektur dasar web, dan pemecahan masalah dengan kode yang rapi.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Eksplorasi Proyek</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Hubungi Saya</span>
+            </a>
+          </div>
+          <div class="hero-meta">
+            <div class="meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Kepanjen, Kab. Malang</span>
+            </div>
+            <div class="meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+              <span>SMKN 1 Kepanjen (Kanega)</span>
+            </div>
+            <div class="meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Siap Magang / PKL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="avatar-wrapper">
+              <span class="avatar-initials">RP</span>
+            </div>
+            <div class="profile-info">
+              <h2 class="profile-name">Rendi Pratama</h2>
+              <p class="profile-role">Junior Web Developer & Student</p>
+              <div class="profile-pills">
+                <span class="pill">Rekayasa Perangkat Lunak</span>
+                <span class="pill">HTML / CSS / JS</span>
+                <span class="pill">PHP & MySQL</span>
+                <span class="pill">SMKN 1 Kepanjen</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Profil & Latar Belakang</h2>
+          <p class="section-description">
+            Dedikasi belajar di bidang kejuruan teknologi informasi untuk menghasilkan karya digital berkualitas.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Saya adalah pelajar di SMK Negeri 1 Kepanjen yang mendalami bidang Rekayasa Perangkat Lunak (RPL). Melalui kurikulum vokasi berbasis praktik, saya dilatih untuk memahami siklus pengembangan perangkat lunak mulai dari perancangan antarmuka pengguna, penulisan kode terstruktur, hingga pengujian sistem.
+            </p>
+            <p>
+              Saya memiliki ketertarikan tinggi pada pengembangan website modern yang ringan, aksesibel, dan nyaman digunakan di berbagai perangkat. Selain tugas pembelajaran sekolah, saya aktif mengembangkan proyek mandiri dan mempelajari standar industri untuk mempersiapkan diri menghadapi Praktik Kerja Lapangan (PKL) serta dunia kerja profesional.
+            </p>
+            <p>
+              Prinsip kerja saya mengutamakan kedisiplinan, kemauan belajar berkelanjutan, serta kemampuan berkolaborasi dalam tim teknis.
+            </p>
+          </div>
+
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-number">RPL</div>
+              <div class="highlight-title">Kompetensi Kejuruan</div>
+              <div class="highlight-desc">Fokus pada rekayasa web, basis data, dan algoritma pemrograman.</div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-number">4+</div>
+              <div class="highlight-title">Proyek Unggulan</div>
+              <div class="highlight-desc">Aplikasi web mandiri dan sistem informasi kebutuhan sekolah.</div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-number">100%</div>
+              <div class="highlight-title">Komitmen Praktek</div>
+              <div class="highlight-desc">Kesiapan tinggi untuk program magang industri dan proyek nyata.</div>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-number">Malang</div>
+              <div class="highlight-title">Basis Wilayah</div>
+              <div class="highlight-desc">Berdomisili di Kepanjen, Kabupaten Malang, Jawa Timur.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Keahlian & Penguasaan Teknologi</h2>
+          <p class="section-description">
+            Kombinasi kemampuan teknis dan alat pendukung yang telah dipelajari dan diimplementasikan.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Frontend -->
+          <div class="skill-category">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="category-title">Front-End Development</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>HTML5 Semantik & Aksesibilitas</span>
+                  <span class="skill-level-badge">Mahir</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>CSS3, Flexbox & CSS Grid</span>
+                  <span class="skill-level-badge">Mahir</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>JavaScript Modern (ES6+)</span>
+                  <span class="skill-level-badge">Menengah</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>Desain Responsif (Mobile-First)</span>
+                  <span class="skill-level-badge">Mahir</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Backend & Database -->
+          <div class="skill-category">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Back-End & Basis Data</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>PHP Dasar & Logika Server</span>
+                  <span class="skill-level-badge">Menengah</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>MySQL & Relasi Database</span>
+                  <span class="skill-level-badge">Menengah</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 72%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>Operasi CRUD & Sanitasi Input</span>
+                  <span class="skill-level-badge">Menengah</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>Konsumsi REST API</span>
+                  <span class="skill-level-badge">Dasar</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 65%;"></div></div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Tools & Workflow -->
+          <div class="skill-category">
+            <div class="category-header">
+              <div class="category-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">Alat & Alur Kerja</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>Git Version Control & GitHub</span>
+                  <span class="skill-level-badge">Menengah</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 78%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>Visual Studio Code</span>
+                  <span class="skill-level-badge">Mahir</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>Figma Wireframing & Prototyping</span>
+                  <span class="skill-level-badge">Menengah</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 70%;"></div></div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-info">
+                  <span>Pengujian Lokal & Debugging</span>
+                  <span class="skill-level-badge">Menengah</span>
+                </div>
+                <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Karya & Proyek Terpilih</h2>
+          <p class="section-description">
+            Portofolio proyek nyata yang dikembangkan selama masa pembelajaran kejuruan di SMKN 1 Kepanjen.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-wrapper" role="tablist" aria-label="Filter Kategori Proyek">
+          <button class="filter-btn active" data-filter="all">Semua Proyek</button>
+          <button class="filter-btn" data-filter="webapp">Aplikasi Web</button>
+          <button class="filter-btn" data-filter="frontend">Frontend & UI</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card" data-category="webapp">
+            <div class="project-header-preview">
+              <div class="preview-graphic">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+              </div>
+              <span class="project-tag-badge">Web Application</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Sistem Informasi Perpustakaan SMKN 1 Kepanjen</h3>
+              <p class="project-desc">
+                Aplikasi web untuk pencatatan sirkulasi buku, katalog digital, manajemen peminjaman siswa, serta pencatatan denda keterlambatan secara otomatis.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-project-id="sip-smk">
+                  <span>Lihat Detail Spesifikasi</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-category="frontend">
+            <div class="project-header-preview">
+              <div class="preview-graphic">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="9" cy="21" r="1"></circle>
+                  <circle cx="20" cy="21" r="1"></circle>
+                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+              </div>
+              <span class="project-tag-badge">Frontend & UI</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">E-Kantin Kanega (Pemesanan Kantin)</h3>
+              <p class="project-desc">
+                Antarmuka pemesanan menu kantin sekolah yang cepat dan ramah mobile, dilengkapi ringkasan keranjang belanja interaktif untuk meminimalkan antrean siswa.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS Flex/Grid</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">LocalStorage</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-project-id="ekantin">
+                  <span>Lihat Detail Spesifikasi</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" data-category="webapp">
+            <div class="project-header-preview">
+              <div class="preview-graphic">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <span class="project-tag-badge">Web Application</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Aplikasi Presensi & Jurnal PKL Siswa</h3>
+              <p class="project-desc">
+                Sistem rekap kegiatan magang industri yang memungkinkan siswa mendokumentasikan pekerjaan harian dan memudahkan guru pembimbing memantau kehadiran.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">CSS Variables</span>
+                <span class="tech-tag">REST API</span>
+                <span class="tech-tag">JSON</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-project-id="presensi-pkl">
+                  <span>Lihat Detail Spesifikasi</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" data-category="frontend">
+            <div class="project-header-preview">
+              <div class="preview-graphic">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <span class="project-tag-badge">Frontend & UI</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Katalog Produk Siswa & UMKM Kepanjen</h3>
+              <p class="project-desc">
+                Halaman etalase responsif yang menampilkan produk kreatif buatan siswa jurusan RPL serta mitra UMKM lokal di wilayah Kepanjen Malang dengan tata letak rapi.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Semantic HTML</span>
+                <span class="tech-tag">Modern CSS</span>
+                <span class="tech-tag">Responsive UI</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-secondary btn-sm" data-project-id="umkm-showcase">
+                  <span>Lihat Detail Spesifikasi</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Timeline Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Riwayat Pendidikan & Pelatihan</h2>
+          <p class="section-description">
+            Jejak pembelajaran akademis dan pengalaman kejuruan di lingkungan SMK Negeri 1 Kepanjen.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-period">2024 - Sekarang (Aktif)</span>
+              <h3 class="timeline-title">SMK Negeri 1 Kepanjen</h3>
+              <div class="timeline-subtitle">Kompetensi Keahlian: Rekayasa Perangkat Lunak (RPL)</div>
+              <p class="timeline-details">
+                Mempelajari pemrograman terstruktur, pemrograman berorientasi objek, perancangan basis data relasional, pengembangan web dinamis, serta etika profesi rekayasa perangkat lunak.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-period">Program Kejuruan</span>
+              <h3 class="timeline-title">Pelatihan Pemrograman Web & Proyek Praktikum</h3>
+              <div class="timeline-subtitle">Laboratorium Komputer RPL SMKN 1 Kepanjen</div>
+              <p class="timeline-details">
+                Menyelesaikan rangkaian praktikum pembuatan antarmuka web modern, integrasi basis data dengan PHP/MySQL, dan implementasi version control menggunakan Git untuk pengerjaan proyek kelompok.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-period">Persiapan Industri</span>
+              <h3 class="timeline-title">Program Kesiapan Praktik Kerja Lapangan (PKL)</h3>
+              <div class="timeline-subtitle">Kerjasama Hubungan Industri SMKN 1 Kepanjen</div>
+              <p class="timeline-details">
+                Pembekalan standar kedisiplinan kerja industri IT, penguasaan komunikasi teknis, penyelesaian studi kasus pemrograman, dan etika profesional dalam lingkungan kerja digital.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Hubungi Saya</h2>
+          <p class="section-description">
+            Terbuka untuk diskusi kesempatan magang / PKL, kolaborasi proyek sekolah, atau pertanyaan seputar pengembangan web.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-card-title">Email Resmi</div>
+                <a href="mailto:rendipratama.smkn1kpj@gmail.com" class="contact-card-value">rendipratama.smkn1kpj@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-card-title">Profil GitHub</div>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-card-value">github.com/rendipratama-kpj</a>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-card-title">Institusi & Lokasi</div>
+                <div class="contact-card-value">SMK Negeri 1 Kepanjen, Malang, Jawa Timur</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper">
+            <div id="form-alert" class="form-alert" role="alert"></div>
+
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="sender-name" class="form-label">Nama Lengkap</label>
+                <input type="text" id="sender-name" name="name" class="form-input" placeholder="Masukkan nama Anda" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-email" class="form-label">Alamat Email</label>
+                <input type="email" id="sender-email" name="email" class="form-input" placeholder="contoh@email.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-subject" class="form-label">Subjek Pesan</label>
+                <input type="text" id="sender-subject" name="subject" class="form-input" placeholder="Topik diskusi atau penawaran magang" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-message" class="form-label">Isi Pesan</label>
+                <textarea id="sender-message" name="message" class="form-textarea" placeholder="Tuliskan pesan atau detail kebutuhan Anda..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Kirim Pesan</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Detail Modal -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close" aria-label="Tutup jendela modal">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <span class="modal-badge" id="modal-category">Kategori Proyek</span>
+      <h3 class="modal-title" id="modal-title">Judul Proyek</h3>
+      <p class="modal-body" id="modal-desc">Deskripsi lengkap dari proyek akan tampil di sini.</p>
+
+      <ul class="modal-spec-list">
+        <li class="modal-spec-item">
+          <span class="modal-spec-label">Teknologi Digunakan</span>
+          <span class="modal-spec-value" id="modal-tech">-</span>
+        </li>
+        <li class="modal-spec-item">
+          <span class="modal-spec-label">Peran dalam Tim</span>
+          <span class="modal-spec-value" id="modal-role">-</span>
+        </li>
+        <li class="modal-spec-item">
+          <span class="modal-spec-label">Status Proyek</span>
+          <span class="modal-spec-value" id="modal-status">-</span>
+        </li>
+      </ul>
+
+      <div style="display: flex; justify-content: flex-end;">
+        <button class="btn btn-secondary btn-sm" onclick="document.getElementById('modal-close').click()">
+          <span>Tutup</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-text">
+        &copy; 2026 Rendi Pratama &bull; SMK Negeri 1 Kepanjen (RPL). Hak cipta dilindungi.
+      </div>
+      <div class="footer-links">
+        <a href="#home" class="footer-link">Beranda</a>
+        <a href="#about" class="footer-link">Tentang</a>
+        <a href="#projects" class="footer-link">Proyek</a>
+        <a href="#contact" class="footer-link">Kontak</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
